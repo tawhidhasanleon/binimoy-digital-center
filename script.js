@@ -1,0 +1,1 @@
+document.getElementById('menu').addEventListener('click',()=>document.getElementById('links').classList.toggle('open'));document.querySelectorAll('#links a').forEach(a=>a.addEventListener('click',()=>document.getElementById('links').classList.remove('open')));document.getElementById('year').textContent=new Date().getFullYear();
